@@ -1,0 +1,12 @@
+function words(x) {
+    return x.split(' ')
+}
+
+const sentence = (arr) => arr.join(' ');
+
+const yell = (str) => str.toUpperCase();
+
+const whisper = (str) => `*${str.toLowerCase()}*`;
+
+const capitalize = (str) =>
+  str.length === 0 ? '' : str[0].toUpperCase() + str.slice(1).toLowerCase();
